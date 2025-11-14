@@ -1,0 +1,41 @@
+
+.customNavBar{
+    position: relative;
+    flex-direction: column;
+    background-color: black;
+    border-right: solid #98df50 5px;
+    min-height: 100vh;
+}    
+
+.customNavBar .spacer {
+    display: flex;
+    position: sticky;
+    top:0;
+    flex-direction: column;
+    gap: 75px;
+    justify-content: center;
+    height: 100vh;
+}
+
+.customNavBar .nav-link{
+    display: flex;
+    position: sticky;
+    top:0;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    font-size: 100%;
+    color : #98df50;
+    background-image: radial-gradient(circle at center, rgba(19, 75, 108, 0.616) 0%, rgba(255, 255, 255, 0) 100%);
+    border-bottom: blue solid;
+    border-top: blue solid;   
+}
+
+.customNavBar .nav-link:focus{
+    color:#d31021;
+}
+
+.customNavBar .nav-link:hover {
+  color: #cf51d4; 
+  text-decoration: none;
+}
